@@ -1,1 +1,1 @@
-﻿1 .. 19 | %{ cp exo.ps1 ("exo{0:D3}.ps1" -f $_) }
+﻿1 .. 19 | %{ cp exo.ps1 ("exo{0:D3}.txt" -f $_) }

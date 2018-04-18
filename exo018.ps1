@@ -1,1 +1,1 @@
-﻿
+﻿Get-ChildItem *.txt | rename-item -newname { [io.path]::ChangeExtension($_.name, "old") }
